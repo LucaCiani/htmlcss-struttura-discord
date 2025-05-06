@@ -28,7 +28,7 @@ body{
 }
 
 .border{
-    border: 1px dashed black;
+    border: 2px dashed black;
 }
 
 .top-header{
@@ -51,9 +51,22 @@ ul{
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 7px;
 }
 
 .login{
     text-align: end;
+}
+
+.bottom-header{
+    background-color: var(--bottom-header-bg-color);
+    display: flex ;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.box-small{
+    width: 900px;
+    height: 400px;
+    background-color: var(--bottom-header-box-color);
 }
